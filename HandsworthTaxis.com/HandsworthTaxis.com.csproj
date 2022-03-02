@@ -117,6 +117,48 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\css\bootstrap.css" />
+    <Content Include="images\about-img.png" />
+    <Content Include="images\airplane.png" />
+    <Content Include="images\appstore.png" />
+    <Content Include="images\backpack.png" />
+    <Content Include="images\client-1.png" />
+    <Content Include="images\client-2.png" />
+    <Content Include="images\contact-bg.png" />
+    <Content Include="images\contact-img.png" />
+    <Content Include="images\delivery-man-black.png" />
+    <Content Include="images\delivery-man-white.png" />
+    <Content Include="images\delivery-man.png" />
+    <Content Include="images\dribble.png" />
+    <Content Include="images\fb.png" />
+    <Content Include="images\hero-bg.jpg" />
+    <Content Include="images\hero-bg2.png" />
+    <Content Include="images\instagram.png" />
+    <Content Include="images\link.png" />
+    <Content Include="images\linkedin.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\menu.png" />
+    <Content Include="images\mobile.png" />
+    <Content Include="images\news-img.jpg" />
+    <Content Include="images\next-white.png" />
+    <Content Include="images\next.png" />
+    <Content Include="images\pinterest.png" />
+    <Content Include="images\playstore.png" />
+    <Content Include="images\prev-blue.png" />
+    <Content Include="images\prev-white.png" />
+    <Content Include="images\prev.png" />
+    <Content Include="images\quote.png" />
+    <Content Include="images\repairing-service-black.png" />
+    <Content Include="images\repairing-service-white.png" />
+    <Content Include="images\right-arrow.png" />
+    <Content Include="images\search-icon.png" />
+    <Content Include="images\shield-black.png" />
+    <Content Include="images\shield-white.png" />
+    <Content Include="images\slider-img.png" />
+    <Content Include="images\Taxi 1.jpg" />
+    <Content Include="images\twitter.png" />
+    <Content Include="Content\css\responsive.css" />
+    <Content Include="Content\css\style.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -124,16 +166,22 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\css\style.css.map" />
+    <Content Include="Content\css\style.scss" />
     <None Include="Scripts\jquery-3.6.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.6.0.js" />
     <Content Include="Scripts\jquery-3.6.0.min.js" />
     <Content Include="Scripts\jquery-3.6.0.slim.js" />
     <Content Include="Scripts\jquery-3.6.0.slim.min.js" />
+    <Content Include="Scripts\js\bootstrap.js" />
+    <Content Include="Scripts\js\jquery-3.4.1.min.js" />
     <Content Include="Web.config" />
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -176,7 +224,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
