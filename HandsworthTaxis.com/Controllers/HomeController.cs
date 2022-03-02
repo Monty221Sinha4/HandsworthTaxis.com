@@ -21,5 +21,9 @@ namespace HandsworthTaxis.com.Controllers
         {
             return View();
         }
+        public ActionResult Service()
+        {
+            return View();
+        }
     }
 }
